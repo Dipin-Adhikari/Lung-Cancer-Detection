@@ -1,0 +1,7 @@
+Lung Cancer Detection Using Deep Learning
+
+Lung cancer is identified as the deadliest cancer making 25 percent of total death caused by cancer in the world. Early detection of lung cancer can prevent humans from great loss. If the cancer is diagnosed in time, the average survival rates for people with lung cancer rise from 14 to 49 percent. Lung Cancer Detection is based on VGG16 deep learning model which detect lung cancer and show which parts of lung tissue has cancer cells. The dataset contains 15000 histopathological images where the AI model was trained using 10500 (70 percent) histopathological images, averagely 3500 images belonging to each classes, remaining 4500 (30 percent) images were used for testing and validation each with 2250 (15 percent) images. It classify whether the histopathological image is of lung Adenocarcinomas (cancerous), Lung Squamous Cell Carcinomas (cancerous), Benign Lung Tissue (Non-cancerous). The accuracy of the model was 93.47 percent which was tested on 2250 histopathological images. It even shows the area of lung tissue which contain cancer cells by heat map on the histopathological image using Grad-Cam. Concluding the model is capable of accurately detecting lung cancer on histopathological images and working as a pathologist.
+
+Keywords: Lung Cancer Detection, Deep Learning, Computer Vision, VGG16, Histopathological Images, Grad-Cam.
+
+Dataset: https://arxiv.org/abs/1912.12142v1
